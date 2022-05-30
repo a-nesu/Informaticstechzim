@@ -14,6 +14,7 @@
   width: 100%;
   position: fixed;
   height: 100px;
+  background-color: transparent;
 }
 .navbar-brand{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -23,6 +24,7 @@
 }
 #navbarCollapse{
   margin-left: 150px;
+
 
 }
 #navbarCollapse a{
@@ -154,6 +156,8 @@
 .row{
   grid-gap: 20px;
   color: rgb(10, 10, 73);
+  background-color: lightgray;
+
 
 }
 #rows{
@@ -164,11 +168,13 @@
   transition: all 0.5s;
   text-align: center;
   font-weight: bold;
+opacity: 1;
+transition: all 0.5s;
 
 }
 #rows:hover{
 background-color: orangered;
-transform: scale(1.05);
+transform: scale(1.01);
 color: white;
 }
 #btn-btns{
@@ -180,5 +186,33 @@ color: white;
   background-color: orangered;
   color: white;
   border: 2px solid white;
+  transform: scale(1.01);
 
+}
+#container-form{
+  height: 400px;
+}
+ form {
+   justify-content: center;
+ }
+#name , #email, #comment{
+  width: 500px;
+  text-align: center;
+  height: 40px;
+  border: 1px solid orangered;
+  border-radius: 7px;
+}
+h1{
+  color: rgb(10, 10, 73);
+}
+
+#submit{
+  background-color: rgb(10, 10, 73)
+}
+#submit:hover{
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+#comment{
+  height: 200px;
 }
